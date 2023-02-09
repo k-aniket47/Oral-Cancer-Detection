@@ -1,0 +1,119 @@
+.img-preview {
+    width: 700px;
+    height: 400px;
+    position: relative;
+    border: 5px solid #282828;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;    
+    
+}
+
+.img-preview>div {
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    background-size: 700px 400px;
+    background-repeat: no-repeat;
+
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    margin-left: 150px;
+    padding: 12px 30px;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #282828;
+}
+
+.upload-label:hover{
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.loader {
+    border: 8px solid #ba1e1e; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.container{
+    padding: 5px;
+    align-items: center;
+}
+.container1{
+    padding-top: 20px;
+    background-color: #e9754f;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9754f 11px ), repeating-linear-gradient( #ffbf0055, #ffbf00 );
+    height: 750px;
+    
+
+}
+#uploaddiv{
+    margin-left: 100px;
+}
+#aboutp{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#apm{
+    padding-top: 30px;
+    background-color: #3f0b07;
+    padding-bottom: 30px;
+}
+
+#about{
+    display: flex; /* set container to use flexbox */
+    flex-direction: row; /* set main axis to be horizontal */
+    justify-content: center; /* center items along the main axis */
+    align-items: center; /* center items along the cross axis */
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 30px;
+}
+#projectd{
+    font-size: 25px;
+    color: #fff;
+}
+
+#contactu{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.nav{
+    padding-left: 20px;
+    background-color: #fdbe56;
+    height: 50px;
+}
+.nav-link{
+    color: #0012b8;
+    font-weight: bold;
+    font-size: 20px;
+}
+#cmc{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #1d80c1;
+}
+
