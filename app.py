@@ -40,10 +40,7 @@ classes = {
 }
 
 def model_predict(img_path, model):
-    # Read the image using OpenCV
     img = cv2.imread(img_path)
-    
-    # Preprocess the image
     image_duplicate=img.copy()
     hsv = cv2.cvtColor(image_duplicate,cv2.COLOR_BGR2HSV)
     h,s,v = cv2.split(hsv)
